@@ -1,0 +1,44 @@
+.required{
+  border:1px solid #F00 !important;
+}
+
+.error-email{
+border:1px solid #F00 !important;
+}
+
+.error{
+border:1px solid #F00 !important;
+background:#fdcbcb;
+color:#F00;
+display:block;
+padding:10px;
+}
+.success{
+border:1px solid #1b5e33 !important;
+background:#cbfddd;
+color:#1b5e33;
+display:block;
+padding:10px;
+}
+
+
+#node {
+  float: left;
+	width: 360px;
+	display: none;
+	background-color: #CC5553;
+	padding: 5px;
+	color: #FFF;
+	border: 1px solid #9B413F;
+	margin-bottom: 10px;
+}
+#success {
+	float: left;
+	width: 360px;
+	background-color: #8ACC39;
+	color: #FFF;
+	padding: 5px;
+	border: 1px solid #6DA32C;
+	display: none;
+	margin-bottom: 10px;
+}
