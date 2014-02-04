@@ -38,6 +38,8 @@ jQuery(document).ready(function() {
          data: post_data,
          success: function(response) {
            jQuery('#node').html(response);
+           alert('Message has been send!');
+		     $('#form-contact').trigger("reset");
          }
        });
      } else {
