@@ -6,7 +6,7 @@
 		<input type="text" name="email" id="email" placeholder="Your Email . . .">
 		<input type="text" name="subject" id="subject" placeholder="Subject . . ."><br />
 		<input type="hidden" name="action" value="forms">
-		<input type="hidden" name="verify" value="<?php echo wp_create_nonce( 'andri' ); ?>">
+		<input type="hidden" name="verify" value="<?php echo wp_create_nonce( 'contact' ); ?>">
 		<input id="submit-contact" type="submit" value="SUBMIT">
 	</form>
 </div>
