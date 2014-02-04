@@ -34,7 +34,7 @@ padding:10px;
 }
 #success {
 	float: left;
-	width: 360px;
+	width: 100%;
 	background-color: #8ACC39;
 	color: #FFF;
 	padding: 5px;
