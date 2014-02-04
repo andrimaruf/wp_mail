@@ -24,7 +24,7 @@ padding:10px;
 
 #node {
   float: left;
-	width: 360px;
+	width: 100%;
 	display: none;
 	background-color: #CC5553;
 	padding: 5px;
